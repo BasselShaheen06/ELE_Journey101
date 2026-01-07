@@ -4,8 +4,7 @@ This repository contains the simulation files, schematics, and detailed reports 
 
 ## 🛠 Tools Used
 
-* 
-**Simulation:** MATLAB Simulink & Simscape 
+* **Simulation:** MATLAB Simulink & Simscape 
 
 
 * **Hardware:** Oscilloscopes, Function Generators, DC Power Supplies, Breadboards.
@@ -21,8 +20,7 @@ This repository contains the simulation files, schematics, and detailed reports 
 
 In this session, we designed and simulated a weighted summer circuit using the **LM324** Quad Op-Amp.
 
-* 
-**Theory:** We utilized the superposition principle to derive the output voltage equation:  (Inverting Configuration where ).
+* **Theory:** We utilized the superposition principle to derive the output voltage equation:  (Inverting Configuration where ).
 
 
 * **Observations:** We tested the circuit with supply voltages of . A key takeaway was observing the **saturation effect**; when the theoretical output exceeded the supply rails, the practical output was capped (clipped), resulting in a massive error percentage (535% in extreme cases). This highlighted the physical limitations of amplification gain relative to  and .
@@ -40,14 +38,12 @@ We constructed a full-wave bridge rectifier to convert a sinusoidal AC input int
 **Simulation:** mode led a step-down transformer (220V to 110V) feeding a bridge rectifier with a  smoothing capacitor.
 
 
-* 
-**Lab:** We used a 1V peak AC source, a **1N4007 diode**, and a  capacitor.
+* **Lab:** We used a 1V peak AC source, a **1N4007 diode**, and a  capacitor.
 
 
 
 
-* 
-**Challenges:** We encountered significant noise in the lab output, likely due to breadboard capacitance or probe grounding issues. Despite a ~29% measurement error due to this noise, we successfully observed the ripple voltage reduction and the peak output behavior ().
+* **Challenges:** We encountered significant noise in the lab output, likely due to breadboard capacitance or probe grounding issues. Despite a ~29% measurement error due to this noise, we successfully observed the ripple voltage reduction and the peak output behavior ().
 
 
 
@@ -57,8 +53,7 @@ We constructed a full-wave bridge rectifier to convert a sinusoidal AC input int
 
 We investigated the I-V characteristics of the **2N7000** Vertical DMOS FET.
 
-* 
-**Method:** We swept the Gate voltage () using a tunable DC supply and measured the resulting Drain current () to determine the transition between the Triode and Saturation regions.
+* **Method:** We swept the Gate voltage () using a tunable DC supply and measured the resulting Drain current () to determine the transition between the Triode and Saturation regions.
 
 
 * **Key Findings:**
@@ -66,9 +61,6 @@ We investigated the I-V characteristics of the **2N7000** Vertical DMOS FET.
 
 
 * Initially, our Drain voltage () readings were near zero, so we adjusted the drain resistor to  to stabilize the readings and verify the device's threshold voltage ().
-
-
-
 
 
 ---
@@ -83,25 +75,18 @@ For a deeper theoretical understanding of these experiments, we relied on:
 
 ## 👥 Contributors (Team 02) ~ The Dream Team
 
-* 
-**Abdullah Gamil** - [@3bdullah-Gamil](https://github.com/3bdullah-Gamil) 
+* **Abdullah Gamil** - [@3bdullah-Gamil](https://github.com/3bdullah-Gamil) 
 
 
-* 
-**Abdelrahman Hassan** - [@abdulrahman-hassan-74](https://github.com/abdulrahman-hassan-74) 
+* **Abdelrahman Hassan** - [@abdulrahman-hassan-74](https://github.com/abdulrahman-hassan-74) 
 
 
-* 
-**Kareem Taha** - [@Kareem-Taha-05](https://github.com/Kareem-Taha-05) 
+* **Kareem Taha** - [@Kareem-Taha-05](https://github.com/Kareem-Taha-05) 
 
 
-* 
-**Bassel Ahmad** 
+* **Bassel Ahmad** 
 
 
 
 ---
 
-### 🚀 Next Step
-
-Would you like me to generate the **README for the final project** you mentioned? If you upload the project file, I can format it to match this style.
